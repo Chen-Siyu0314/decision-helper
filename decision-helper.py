@@ -1,4 +1,4 @@
-# work.py（最終升級整合版 + 多情境推薦產生器 + UX 強化）by 思宇
+# decision.py（最終升級整合版 + 多情境推薦產生器 + UX 強化）by 思宇
 
 import streamlit as st
 import random
