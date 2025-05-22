@@ -17,7 +17,7 @@
 ---
 
 ## 💻 展示作品連結（Streamlit App）
-👉 [點這裡體驗互動版應用程式](https://decision-eazy-hc4dystbhujzvgqfeaehrt.streamlit.app)
+👉 [點這裡體驗互動版應用程式](https://decision-eazy-gdhbguhe7nnnmxn6nykdnz.streamlit.app/)
 
 ---
 
