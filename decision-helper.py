@@ -133,7 +133,7 @@ def update_history(choice):
         json.dump(history_preferences, f, indent=2, ensure_ascii=False)
 
 # ========== UI介面開始 ========== #
-st.title("🎯 萬用選擇困難救星")
+st.title("🎯 選擇困難救星")
 
 purpose = st.selectbox("你的主要目的：", list(purpose_keywords.keys()))
 mood = st.text_input("你現在的心情是？")
