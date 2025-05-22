@@ -19,7 +19,7 @@ def play_tts(text):
 
 st.set_page_config(page_title="選擇困難救星", page_icon="🎯", layout="centered")
 # 顯示圖片
-st.image("operation/cute_decision_image.png", caption="選擇困難症日常", use_container_width=True)
+st.image("cute_decision_image.png", caption="選擇困難症日常", use_container_width=True)
 
 # ========== 偏好記錄初始化 ========== #
 log_file = "choice_log.json"
