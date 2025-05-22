@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/022f45f1-a189-4278-9f22-289e0b5e5eef)![artificial-intelligence (1)](https://github.com/user-attachments/assets/af91a908-2339-4ddc-b44c-2ce68d07502f)# decision-helper
+# decision-helper
 # 🎯 選擇困難救星
 
 這是一個互動式 AI 工具，幫助你更容易做選擇。  
