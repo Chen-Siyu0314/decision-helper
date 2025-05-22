@@ -33,4 +33,4 @@
 ---
 
 📌 專案網址：  
-https://chen-siyu0314.github.io/decision-helper/
+https://github.com/Chen-Siyu0314/decision-helper.github.io
