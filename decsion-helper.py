@@ -7,7 +7,7 @@ import os
 from collections import Counter
 import matplotlib.pyplot as plt
 
-st.set_page_config(page_title="萬用選擇困難救星", page_icon="🎯", layout="centered")
+st.set_page_config(page_title="選擇困難救星", page_icon="🎯", layout="centered")
 
 # ========== 偏好記錄初始化 ========== #
 log_file = "choice_log.json"
