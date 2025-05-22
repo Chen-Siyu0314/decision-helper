@@ -26,6 +26,10 @@
 - Python + Streamlit
 - 語意關鍵字推理邏輯
 - GitHub Pages 發布作品頁面
+- 使用者偏好儲存與歷史紀錄分析
+- Text-to-Speech（文字轉語音播放）
+- OpenAI 語言模型 API 串接（ChatGPT）
+- 前端動畫設計（互動按鈕、彈跳特效）
 
 ---
 
