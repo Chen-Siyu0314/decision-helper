@@ -1,4 +1,6 @@
 # decision-helper.py（最終升級整合版 + 多情境推薦產生器 + UX 強化）by 思宇
+#.\.venv\Scripts\activate
+#streamlit run operation/decision-helper.py
 
 import streamlit as st
 import random
@@ -6,8 +8,18 @@ import json
 import os
 from collections import Counter
 import matplotlib.pyplot as plt
+from gtts import gTTS
+from io import BytesIO
+
+def play_tts(text):
+    tts = gTTS(text=text, lang="zh-tw")
+    mp3_fp = BytesIO()
+    tts.write_to_fp(mp3_fp)
+    st.audio(mp3_fp.getvalue(), format="audio/mp3")
 
 st.set_page_config(page_title="選擇困難救星", page_icon="🎯", layout="centered")
+# 顯示圖片
+st.image("operation/cute_decision_image.png", caption="選擇困難症日常", use_container_width=True)
 
 # ========== 偏好記錄初始化 ========== #
 log_file = "choice_log.json"
@@ -149,6 +161,8 @@ if st.button("幫我選！"):
         if choice != "（無推薦）":
             update_history(choice)
             st.success(f"✅ 推薦你選擇：**{choice}**")
+            tts_text = f"推薦你選擇 {choice}，因為：{detail_reasons.get(choice, '這項選擇最適合你目前的情境。')}"
+            play_tts(tts_text)
 
             # ========== 升級推薦說明區 ========== #
             st.markdown("---")
