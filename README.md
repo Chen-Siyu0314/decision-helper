@@ -38,4 +38,4 @@
 ---
 
 📌 專案網址：  
-https://github.com/Chen-Siyu0314/decision-helper.github.io
+https://chen-siyu0314.github.io/decision-helper.github.io/
